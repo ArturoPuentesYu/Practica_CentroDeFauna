@@ -16,36 +16,64 @@ public class Liberacion {
     private Date fecha;
     private String veterinario;
 
+    /**
+     * Constructor de la liberación
+     * @param detalles
+     * @param fecha
+     * @param veterinario
+     */
     public Liberacion(String detalles, Date fecha, String veterinario) {
         this.detalles = detalles;
         this.fecha = fecha;
         this.veterinario = veterinario;
     }
 
-    Liberacion() {
-    }
-
     // Getters y setters
+
+    /**
+     *  
+     * @return
+     */
     public String getRazon() {
         return detalles;
     }
 
+    /**
+     *
+     * @param razon
+     */
     public void setRazon(String razon) {
         this.detalles = razon;
     }
 
+    /**
+     *
+     * @return
+     */
     public Date getFecha() {
         return fecha;
     }
 
+    /**
+     *
+     * @param fecha
+     */
     public void setFecha(Date fecha) {
         this.fecha = fecha;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getVeterinario() {
         return veterinario;
     }
 
+    /**
+     *
+     * @param veterinario
+     */
     public void setVeterinario(String veterinario) {
         this.veterinario = veterinario;
     }

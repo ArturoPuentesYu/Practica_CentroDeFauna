@@ -319,7 +319,10 @@ public class PanelFallecimiento extends javax.swing.JPanel {
         Gestor.IntroLetras(evt);
     }//GEN-LAST:event_jTextFieldVetKeyTyped
 
-        public void InitFecha() {
+    /**
+     *
+     */
+    public void InitFecha() {
         SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         date = new Date();
         jTextFieldFecha.setText(formato.format(date));

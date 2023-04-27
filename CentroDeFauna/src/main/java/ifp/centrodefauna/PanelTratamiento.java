@@ -17,6 +17,9 @@ public class PanelTratamiento extends javax.swing.JPanel {
      */
     private int indice = -1;
 
+    /**
+     *
+     */
     public PanelTratamiento() {
         initComponents();
     }

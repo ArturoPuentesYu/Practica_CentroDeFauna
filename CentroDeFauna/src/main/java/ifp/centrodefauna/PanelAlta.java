@@ -294,6 +294,9 @@ public class PanelAlta extends javax.swing.JPanel {
         this.DatoExtra.setEnabled(false);
     }//GEN-LAST:event_DarAltaActionPerformed
 
+    /**
+     *
+     */
     public void InitFecha() {
         SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         date = new Date();

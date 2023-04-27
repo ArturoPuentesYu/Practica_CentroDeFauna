@@ -350,6 +350,9 @@ public class PanelListado extends javax.swing.JPanel {
     private javax.swing.JTable jTableLista;
     // End of variables declaration//GEN-END:variables
 
+    /**
+     *
+     */
     public void initElementsInTable() {
         DefaultTableModel modelo = (DefaultTableModel) jTableLista.getModel();
         SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");

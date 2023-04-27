@@ -20,6 +20,9 @@ public class PanelLiberacion extends javax.swing.JPanel {
     private int indice;
     private Date date;
 
+    /**
+     *
+     */
     public PanelLiberacion() {
         initComponents();
     }
@@ -311,6 +314,9 @@ public class PanelLiberacion extends javax.swing.JPanel {
         Gestor.IntroLetras(evt);
     }//GEN-LAST:event_jTextArea1KeyTyped
 
+    /**
+     *
+     */
     public void InitFecha() {
         SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         date = new Date();

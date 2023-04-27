@@ -12,6 +12,10 @@ import java.awt.event.KeyEvent;
  */
 public class Gestor {
 
+    /**
+     * Funcion que permite unicamente introducir letras
+     * @param evt
+     */
     public static void IntroLetras(KeyEvent evt) {
         char c = evt.getKeyChar();
         if (!Character.isLetter(c)) {
@@ -19,6 +23,10 @@ public class Gestor {
         }
     }
 
+    /**
+     * Funcion que solo permite introducir numeros
+     * @param evt
+     */
     public static void IntroNumeros(KeyEvent evt) {
         char c = evt.getKeyChar();
         if (!Character.isDigit(c)) {
@@ -26,6 +34,11 @@ public class Gestor {
         }
     }
 
+    /**
+     * funcion que permite el introducir numeros decimales
+     * @param evt
+     * @param num
+     */
     public static void IntroDecimales(KeyEvent evt, String num) {
         char c = evt.getKeyChar();
         if (Character.isLetter(c)) {

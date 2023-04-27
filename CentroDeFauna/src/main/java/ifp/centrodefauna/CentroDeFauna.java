@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author ajpyu
+ * @author Arturo
  */
 public class CentroDeFauna extends javax.swing.JFrame {
 
